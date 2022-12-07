@@ -19,8 +19,8 @@ module.exports = {
     }
   },
   additionalPaths: async (config) => [
-    await config.transform(config, 'kruti-dev/kruti-dev-to-unicode'),
-    await config.transform(config, 'kruti-dev/unicode-to-kruti-dev')
+    // await config.transform(config, 'kruti-dev/kruti-dev-to-unicode'),
+    // await config.transform(config, 'kruti-dev/unicode-to-kruti-dev')
   ],
 
   

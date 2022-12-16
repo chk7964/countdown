@@ -3,7 +3,7 @@ export default function Navbar() {
  return (
   <div>
 <div className="w-full bg-red-500 text-white text-center font-bold text-3xl">
-  <p className="m-0"><a href="./">Tools Font Basket</a></p>
+  <p className="m-0"><a href="./">Festival Timer</a></p>
 </div>
 
 <div className="scrollmenu bg-black overflow-auto whitespace-nowrap">

@@ -120,7 +120,6 @@ const Home = () => {
           </>
         )}
       </div>
-      <script src="/js/snow.js"></script>
       <Script async id="timer">{`
       document.addEventListener('DOMContentLoaded', function() {
           new Snow('#snow',{

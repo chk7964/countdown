@@ -10,12 +10,12 @@ export default function About() {
 <input type="text" id="myInput" onKeyUp="myFunction()" placeholder="Search for names.."></input>
 <div className="shadow-md sm:rounded-lg text-center justify-center items-center">
     <table className="w-3/5 text-sm text-center text-gray-500 dark:text-gray-400 mx-auto" id='myTable'>
-        <thead className="text-xs text-gray-700 uppercase dark:text-gray-400">
+        <thead className="text-xs text-white uppercase dark:text-gray-400 ">
             <tr>
-                <th scope="col" className="py-3 px-6 bg-gray-50 dark:bg-gray-800">
+                <th scope="col" className="py-3 px-6 dark:bg-gray-800 bg-black">
                     Festival Name
                 </th>
-                <th scope="col" className="py-3 px-6">
+                <th scope="col" className="py-3 px-6 bg-black">
                     Link
                 </th>
           

@@ -5,7 +5,9 @@ export default function Layout({ children }) {
   <>
    <Navbar />
    <main>
+    <div className='py-1'>
     {children}
+    </div>
    </main>
    <Footer />
   </>

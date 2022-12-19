@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { useEffect, useState } from "react";
+import { NextSeo } from 'next-seo';
 
 
 const Home = () => {
@@ -39,12 +40,12 @@ const Home = () => {
 
   return (
     <>
-    <div className=" bg-rose-400 h-screen">
-      <Head>
-        <title>Christmas Countdown Timer</title>
-        <link rel="icon" href="/favicon.ico" />
-        {/* <link rel="stylesheet" href="/css/bg.css"></link> */}
-      </Head>
+          <NextSeo
+      title="Christmas Countdown Timer"
+      description="Christmas is a very polular festival."
+    />
+    <div className=" bg-gradient-to-tl from-indigo-300 via-purple-300 to-pink-500 h-screen">
+
 
       {partyTime ? (
         <>
@@ -77,19 +78,28 @@ const Home = () => {
               </div>
               </div> */}
 <div className="text-center ">
-  <h1 className="font-bold text-3xl pt-5">Christmas Countdown Timer</h1>
+  <h1 className="font-bold text-3xl pt-5 bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-violet-500">Christmas Countdown Timer</h1>
+  <br/>
+<h3 className="font-bold text-3xl bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-violet-500">25/12/2022</h3>
+<br/>
+<h3 className="font-bold text-3xl text-center bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-violet-500">There Are Only</h3>
 </div>
-              <div id="countdown" className="h-auto m-auto flex items-center justify-center pt-[20vh] animate-pulse">
-    <ul>
-      <li className="font-bold skew-y-6 stroke-yellow-400 uppercase list-none inline-block p-3 text-center text-lg sm:text-lg md:text-3xl lg:text-6xl"><span id="days" className="block">{days}</span>days</li>
-      <li className="font-bold skew-y-6 stroke-yellow-400 uppercase list-none inline-block p-3 text-center text-lg sm:text-lg md:text-3xl lg:text-6xl"><span id="hours" className="block">{hours}</span>Hours</li>
-      <li className="font-bold skew-y-6 stroke-yellow-400 uppercase list-none inline-block p-3 text-center text-lg sm:text-lg md:text-3xl lg:text-6xl"><span id="minutes" className="block">{minutes}</span>Minutes</li>
-      <li className="font-bold skew-y-6 stroke-yellow-400 uppercase list-none inline-block p-3 text-center text-lg sm:text-lg md:text-3xl lg:text-6xl"><span id="seconds" className="block">{seconds}</span>Seconds</li>
-    </ul>
-  </div>
 
-<div className="mt-48 w-min mx-auto  pb-4 border border-lime-400 text-center">
-<p className="p-4">Advertise</p>
+              <div id="countdown" className="h-auto m-auto flex items-center justify-center pt-[5vh]  ">
+    <ul>
+      <li className="font-bold skew-y-6 stroke-yellow-400 uppercase list-none inline-block p-3 text-center text-lg sm:text-lg md:text-3xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-violet-500"><span id="days" className="block">{days}</span>days</li>
+      <li className="font-bold skew-y-6 stroke-yellow-400 uppercase list-none inline-block p-3 text-center text-lg sm:text-lg md:text-3xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-violet-500"><span id="hours" className="block">{hours}</span>Hours</li>
+      <li className="font-bold skew-y-6 stroke-yellow-400 uppercase list-none inline-block p-3 text-center text-lg sm:text-lg md:text-3xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-violet-500"><span id="minutes" className="block">{minutes}</span>Minutes</li>
+      <li className="font-bold skew-y-6 stroke-yellow-400 uppercase list-none inline-block p-3 text-center text-lg sm:text-lg md:text-3xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-violet-500"><span id="seconds" className="block">{seconds}</span>Seconds</li>
+    </ul>
+   
+  </div>
+  <br/>
+  <br/>
+  <br/>
+  <h3 className="font-bold text-3xl text-center bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-violet-500">Until Christmas</h3>
+<div className=" w-min mx-auto  pb-4 border border-lime-400 text-center mt-[5vh]">
+<p className="p-4 ">Advertise</p>
 
 </div>
 

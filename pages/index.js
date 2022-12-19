@@ -1,5 +1,6 @@
 import { NextSeo } from 'next-seo';
 import Script from 'next/script';
+import Link from 'next/link';
 export default function About() {
   return <>
           <NextSeo

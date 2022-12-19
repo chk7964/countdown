@@ -26,7 +26,7 @@ export default function About() {
                     New Year
                 </th>
                 <td className="py-4 px-6">
-                   <a href='/new-year'>New Year</a>
+                <Link href="/new-year">New Year</Link>
                 </td>
          
             </tr>
@@ -35,7 +35,7 @@ export default function About() {
                    Christmas
                 </th>
                 <td className="py-4 px-6">
-                    <a href='/christmas'></a>
+                <Link href="/christmas">Christmas</Link>
                 </td>
         
             </tr>

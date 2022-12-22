@@ -42,28 +42,28 @@ export default function About() {
             </tr>
             <tr className="border-b border-gray-200 dark:border-gray-700">
                 <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                    Magic Mouse 2
+                 Summer
                 </th>
                 <td className="py-4 px-6">
-                    Black
+                <Link href="#">Summer</Link>   
                 </td>
         
             </tr>
             <tr className="border-b border-gray-200 dark:border-gray-700">
                 <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                    Google Pixel Phone
+                   Ramadan
                 </th>
                 <td className="py-4 px-6">
-                    Gray
+                <Link href="#">Ramadan</Link>
                 </td>
              
             </tr>
             <tr>
                 <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                    Apple Watch 5
+             Easter
                 </th>
                 <td className="py-4 px-6">
-                    Red
+                <Link href="#">Easter</Link>
                 </td>
             </tr>
         </tbody>

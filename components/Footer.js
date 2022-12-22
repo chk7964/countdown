@@ -9,7 +9,7 @@ export default function footer() {
   <a className="text-center text-white inline-block p-4 no-underline hover:bg-slate-400" href="#">Contact Us</a>
   <a className="text-center text-white inline-block p-4 no-underline hover:bg-slate-400" href="#">Privacy Policy</a>
 
-  <p className="m-0 bg-red-800">Copyright &copy; <b>{new Date().getFullYear()}</b> Festival Countdown All Rights Reserved</p>
+  <p className="m-0 bg-red-800">Copyright &copy; <b>{new Date().getFullYear()}</b> Fest Countdown All Rights Reserved</p>
 </div>
   </>
  )

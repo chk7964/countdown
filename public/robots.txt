@@ -7,7 +7,7 @@ User-agent: SemrushBot
 Disallow: /
 
 # Host
-Host: https://tools.fontbasket.com
+Host: https://fest-countdown.lotusbit.com
 
 # Sitemaps
-Sitemap: https://tools.fontbasket.com/sitemap.xml
+Sitemap: https://fest-countdown.lotusbit.com/sitemap.xml

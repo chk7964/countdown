@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: process.env.SITE_URL || 'https://tools.fontbasket.com',
+  siteUrl: process.env.SITE_URL || 'https://fest-countdown.lotusbit.com',
   generateRobotsTxt: true, // (optional)
   changefreq: 'weekly',
   priority: 0.5,

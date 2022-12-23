@@ -1,7 +1,22 @@
 import Head from "next/head";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import { NextSeo } from 'next-seo';
 import Script from 'next/script'
+import React from 'react'
+import {
+  FacebookShareButton,
+  FacebookIcon,
+  PinterestShareButton,
+  PinterestIcon,
+  RedditShareButton,
+  RedditIcon,
+  WhatsappShareButton,
+  WhatsappIcon,
+  LinkedinShareButton,
+  LinkedinIcon,
+} from 'next-share';
+var pageurl = "https://fest-countdown.lotusbit.com/new-year";
 
 
 const Home = () => {
@@ -45,10 +60,37 @@ const Home = () => {
         title="New Year Countdown"
         description="New year is starting day first."
       />
-      <div className="animate-waving-hand bg-gradient-to-tl from-indigo-300 via-purple-300 to-pink-500 h-screen" id="snow">
+        <div className='flex flex-col absolute top-2/4 -translate-y-2/4'>
+        <FacebookShareButton
+        url={pageurl} >
+        <FacebookIcon size={50} round />
+      </FacebookShareButton>
+      <PinterestShareButton
+        url={pageurl} >
+        <PinterestIcon size={50} round />
+      </PinterestShareButton>
+      <RedditShareButton
+        url={pageurl} >
+        <RedditIcon size={50} round />
+      </RedditShareButton>
+      <WhatsappShareButton
+        url={pageurl} >
+        <WhatsappIcon size={50} round />
+      </WhatsappShareButton>
+      <LinkedinShareButton
+        url={pageurl} >
+        <LinkedinIcon size={50} round />
+      </LinkedinShareButton>
+    </div>
+
+      <div className="animate-waving-hand bg-gradient-to-tl from-indigo-300 via-purple-300 to-pink-500" id="snow">
+        <div className="h-screen">
         <Head>
 
         </Head>
+
+
+
 
         {partyTime ? (
           <>
@@ -87,7 +129,7 @@ const Home = () => {
               <br />
               <h3 className="font-bold text-3xl p-2 inline-block text-center bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-amber-500">There Are Only</h3>
             </div>
-            <div id="countdown" className="h-auto m-auto flex flex-col sm:flex-row items-center justify-center pt-[5vh] animate-pulse">
+            <div id="countdown" className="h-auto m-auto flex flex-col sm:flex-row items-center justify-center pt-[5vh] animate-pulse w-max">
             
                 <div className="font-bold text-3xl skew-y-6 stroke-yellow-400 uppercase list-none inline-block p-3 text-center sm:text-lg md:text-3xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-violet-500"><span id="days" className="block">{days}</span>days</div>
                 <div className="font-bold text-3xl skew-y-6 stroke-yellow-400 uppercase list-none inline-block p-3 text-center sm:text-lg md:text-3xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-violet-500"><span id="hours" className="block">{hours}</span>Hours</div>
@@ -107,7 +149,10 @@ const Home = () => {
 
           </>
         )}
+        </div>
+        <p>All People celebrate 1 January of new year.</p>
       </div>
+      
 
       <style jsx>{`
  #snow {

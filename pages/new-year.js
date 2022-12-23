@@ -60,7 +60,7 @@ const Home = () => {
         title="New Year Countdown"
         description="New year is starting day first."
       />
-        <div className='flex flex-col absolute top-2/4 -translate-y-2/4'>
+        <div className='flex flex-col fixed top-2/4 -translate-y-2/4'>
         <FacebookShareButton
         url={pageurl} >
         <FacebookIcon size={50} round />
@@ -83,7 +83,7 @@ const Home = () => {
       </LinkedinShareButton>
     </div>
 
-      <div className="animate-waving-hand bg-gradient-to-tl from-indigo-300 via-purple-300 to-pink-500" id="snow">
+      <div className="animate-waving-hand bg-gradient-to-tl from-indigo-300 via-purple-300 to-pink-500 font-serif" id="snow">
         <div className="h-screen">
         <Head>
 
@@ -129,7 +129,7 @@ const Home = () => {
               <br />
               <h3 className="font-bold text-3xl p-2 inline-block text-center bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-amber-500">There Are Only</h3>
             </div>
-            <div id="countdown" className="h-auto m-auto flex flex-col sm:flex-row items-center justify-center pt-[5vh] animate-pulse w-max">
+            <div id="countdown" className="h-auto m-auto flex flex-col sm:flex-row items-center justify-center pt-[5vh] animate-pulse w-max font-serif">
             
                 <div className="font-bold text-3xl skew-y-6 stroke-yellow-400 uppercase list-none inline-block p-3 text-center sm:text-lg md:text-3xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-violet-500"><span id="days" className="block">{days}</span>days</div>
                 <div className="font-bold text-3xl skew-y-6 stroke-yellow-400 uppercase list-none inline-block p-3 text-center sm:text-lg md:text-3xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-violet-500"><span id="hours" className="block">{hours}</span>Hours</div>
@@ -150,7 +150,9 @@ const Home = () => {
           </>
         )}
         </div>
-        <p>All People celebrate 1 January of new year.</p>
+        <p className="text-center font-serif">All People celebrate 1 January like the new year. Here you can see the countdown of the new year. You can also share this page link via the share button.</p>
+        <h2 className="text-center text-lg font-semibold font-serif">Why Visit Our Website?</h2>
+        <p className="text-center font-serif">Here we provide the fastest and secure countdown site. So you easily access our website.</p>
       </div>
       
 

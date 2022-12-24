@@ -83,7 +83,7 @@ const Home = () => {
       </LinkedinShareButton>
     </div>
 
-      <div className="animate-waving-hand bg-gradient-to-tl from-indigo-300 via-purple-300 to-pink-500 font-serif" id="snow">
+      <div className="bg-gradient-to-tl from-indigo-300 via-purple-300 to-pink-500 font-serif w-full" id="sno">
         <div className="h-screen">
         <Head>
 
@@ -129,30 +129,27 @@ const Home = () => {
               <br />
               <h3 className="font-bold text-3xl p-2 inline-block text-center bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-amber-500">There Are Only</h3>
             </div>
-            <div id="countdown" className="h-auto m-auto flex flex-col sm:flex-row items-center justify-center pt-[5vh] animate-pulse w-max font-serif">
+            <div id="countdown" className="h-auto m-auto flex flex-col sm:flex-row items-center justify-center pt-[5vh] animate-pulse w-min font-serif ">
             
-                <div className="font-bold text-3xl skew-y-6 stroke-yellow-400 uppercase list-none inline-block p-3 text-center sm:text-lg md:text-3xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-violet-500"><span id="days" className="block">{days}</span>days</div>
-                <div className="font-bold text-3xl skew-y-6 stroke-yellow-400 uppercase list-none inline-block p-3 text-center sm:text-lg md:text-3xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-violet-500"><span id="hours" className="block">{hours}</span>Hours</div>
-                <div className="font-bold text-3xl skew-y-6 stroke-yellow-400 uppercase list-none inline-block p-3 text-center sm:text-lg md:text-3xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-violet-500"><span id="minutes" className="block">{minutes}</span>Minutes</div>
-                <div className="font-bold text-3xl skew-y-6 stroke-yellow-400 uppercase list-none inline-block p-3 text-center sm:text-lg md:text-3xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-violet-500"><span id="seconds" className="block">{seconds}</span>Seconds</div>
+                <div className="font-bold text-3xl skew-y-6 stroke-yellow-400 uppercase p-3 text-center sm:text-lg md:text-3xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-violet-500 break-words"><span id="days" className="inline-block">{days}</span>days</div>
+                <div className="font-bold text-3xl skew-y-6 stroke-yellow-400 uppercase p-3 text-center sm:text-lg md:text-3xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-violet-500 break-words"><span id="hours" className="inline-block">{hours}</span>Hours</div>
+                <div className="font-bold text-3xl skew-y-6 stroke-yellow-400 uppercase p-3 text-center sm:text-lg md:text-3xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-violet-500 break-words"><span id="minutes" className="inline-block">{minutes}</span>Minutes</div>
+                <div className="font-bold text-3xl skew-y-6 stroke-yellow-400 uppercase p-3 text-center sm:text-lg md:text-3xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-violet-500 break-words"><span id="seconds" className="inline-block">{seconds}</span>Seconds</div>
             
             </div>
 
-            <div className=" w-min mx-auto bg-slate-400 pb-4 text-center mt-[10vh]">
+            <div className=" w-min mx-auto bg-slate-400 text-center mt-[10vh]">
               <p className="p-4">Advertise</p>
-
             </div>
-
-
-
-
-
           </>
         )}
         </div>
+        <br/>
+        <div className="mt-4">
         <p className="text-center font-serif">All People celebrate 1 January like the new year. Here you can see the countdown of the new year. You can also share this page link via the share button.</p>
         <h2 className="text-center text-lg font-semibold font-serif">Why Visit Our Website?</h2>
         <p className="text-center font-serif">Here we provide the fastest and secure countdown site. So you easily access our website.</p>
+        </div>
       </div>
       
 

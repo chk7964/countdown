@@ -6,7 +6,7 @@ class MyDocument extends Document {
     return (
       <Html className=''>
         <Head>
-        <link rel="icon" type="image/x-icon" href="/img/favicon.png"/>
+        <link rel="icon" type="image/x-icon" href="/img/favicon.ico"/>
         </Head>
         <body className=''>
         {/* <script src="https://code.jquery.com/jquery-3.6.1.min.js" async/> */}

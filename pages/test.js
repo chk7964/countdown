@@ -18,12 +18,9 @@ import {
 } from 'next-share';
 var pageurl = "https://fest-countdown.lotusbit.com/new-year";
 const todaysDate = new Date()
-const currentYear = todaysDate.getFullYear()+1;
-const cdate0 = " 00:00:00";
-const cdate01 = "01/01/"+currentYear;
-const cdate = "01/01/"+currentYear+ cdate0;
-
-
+const currentYear = todaysDate.getFullYear()
+const cdate = "12/25/"+currentYear+" 00:00:00";
+console.log(cdate);
 const Home = () => {
   const [partyTime, setPartyTime] = useState(false);
   const [days, setDays] = useState(0);
@@ -128,9 +125,9 @@ const Home = () => {
               </div>
               </div> */}
             <div className="text-center ">
-              <h1 className="font-bold text-3xl pt-5 inline-block bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-500">New Year Countdown</h1>
+              <h1 className="font-bold text-3xl pt-5 inline-block bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-500">Christmas Countdown</h1>
               <br />
-              <h3 className="font-bold text-3xl p-2 inline-block bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-lime-900">{cdate01}</h3>
+              <h3 className="font-bold text-3xl p-2 inline-block bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-lime-900">25/12/2022</h3>
               <br />
               <h3 className="font-bold text-3xl p-2 inline-block text-center bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-amber-500">There Are Only</h3>
             </div>
@@ -140,10 +137,9 @@ const Home = () => {
                 <div className="font-bold text-3xl skew-y-6 stroke-yellow-400 uppercase p-3 text-center sm:text-lg md:text-3xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-violet-500 break-words"><span id="hours" className="block">{hours}</span>Hours</div>
                 <div className="font-bold text-3xl skew-y-6 stroke-yellow-400 uppercase p-3 text-center sm:text-lg md:text-3xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-violet-500 break-words"><span id="minutes" className="block">{minutes}</span>Minutes</div>
                 <div className="font-bold text-3xl skew-y-6 stroke-yellow-400 uppercase p-3 text-center sm:text-lg md:text-3xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-violet-500 break-words"><span id="seconds" className="block">{seconds}</span>Seconds</div>
+            
             </div>
-            <div className="text-center mt-8">
-<h3 className="font-bold text-3xl p-2 inline-block bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-lime-900 text-center">Until New Year</h3>
-</div>
+
             <div className=" w-min mx-auto bg-slate-400 text-center mt-[10vh]">
               <p className="p-4">Advertise</p>
             </div>
@@ -157,6 +153,8 @@ const Home = () => {
         <p className="text-center font-serif">Here we provide the fastest and secure countdown site. So you easily access our website.</p>
         </div>
       </div>
+      
+
       <style jsx>{`
  #snow {
   background: linear-gradient(-45deg, #ee7752, #23a6d5, #23d5ab);
@@ -181,3 +179,4 @@ const Home = () => {
 };
 
 export default Home;
+

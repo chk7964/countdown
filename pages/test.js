@@ -19,7 +19,7 @@ import {
 var pageurl = "https://fest-countdown.lotusbit.com/new-year";
 const todaysDate = new Date()
 const currentYear = todaysDate.getFullYear()
-const cdate = "12/25/"+currentYear+" 00:00:00";
+const cdate = "12/24/"+currentYear+" 14:40:50";
 console.log(cdate);
 const Home = () => {
   const [partyTime, setPartyTime] = useState(false);

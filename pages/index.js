@@ -7,68 +7,17 @@ export default function About() {
       title="Festival Countdown"
       description="Festival countdown helps people to see the countdown timer."
     />
-<input type="text" id="myInput" onKeyUp="myFunction()" placeholder="Search for names.."></input>
-<div className="shadow-md sm:rounded-lg text-center justify-center items-center">
-    <table className="w-3/5 text-sm text-center text-gray-500 dark:text-gray-400 mx-auto" id='myTable'>
-        <thead className="text-xs text-white uppercase dark:text-gray-400 ">
-            <tr>
-                <th scope="col" className="py-3 px-6 dark:bg-gray-800 bg-black">
-                    Festival Name
-                </th>
-                <th scope="col" className="py-3 px-6 bg-black">
-                    Link
-                </th>
-          
-            </tr>
-        </thead>
-        <tbody>
-            <tr className="border-b border-gray-200 dark:border-gray-700">
-                <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                    New Year
-                </th>
-                <td className="py-4 px-6">
-                <Link href="/new-year">New Year</Link>
-                </td>
-         
-            </tr>
-            <tr className="border-b border-gray-200 dark:border-gray-700">
-                <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                   Christmas
-                </th>
-                <td className="py-4 px-6">
-                <Link href="/christmas">Christmas</Link>
-                </td>
-        
-            </tr>
-            <tr className="border-b border-gray-200 dark:border-gray-700">
-                <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                 Summer
-                </th>
-                <td className="py-4 px-6">
-                <Link href="#">Summer</Link>   
-                </td>
-        
-            </tr>
-            <tr className="border-b border-gray-200 dark:border-gray-700">
-                <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                   Ramadan
-                </th>
-                <td className="py-4 px-6">
-                <Link href="#">Ramadan</Link>
-                </td>
-             
-            </tr>
-            <tr>
-                <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-             Easter
-                </th>
-                <td className="py-4 px-6">
-                <Link href="#">Easter</Link>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+    <div className="grid grid-cols-3 ">
+  <div className="w-40 sm:w-4/12 px-4 m-2">
+    <img src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-2-800x800.jpg" alt="..." className="shadow-xl drop-shadow-2xl shadow-red-400 rounded-full max-w-full h-auto align-middle border-none" />
+    <div className='text-center justify-center items-center mx-auto'>
+    <span className='font-semibold text-lg'>hii</span>
+    </div>
+  </div>
 </div>
+    <div className='h-20 w-20 shadow-lg mx-auto border border-red-400'><img className='rounded-full h-auto max-w-full' src='https://pngimg.com/d/new_year_PNG77.png'></img></div>
+<input type="text" id="myInput" onKeyUp="myFunction()" placeholder="Search for names.."></input>
+
 
 <Script id="show-banner">
   {`

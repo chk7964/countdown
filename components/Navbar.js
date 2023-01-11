@@ -2,11 +2,11 @@
 export default function Navbar() {
  return (
   <div>
-<div className="w-full bg-red-500 text-white text-center font-bold text-3xl p-2">
-  <p className="m-0"><a href="./">Fest Countdown</a></p>
+<div className="w-full bg-gradient-to-r from-violet-400 to-red-600  text-white text-center font-bold text-3xl p-2">
+  <p className="m-0 hover:text-gray-200"><a href="./">Fest Clock</a></p>
 </div>
 
-<div className="scrollmenu bg-black overflow-auto whitespace-nowrap">
+<div className="scrollmenu  bg-gradient-to-r from-zinc-900  to-zinc-600 overflow-auto whitespace-nowrap text-center">
  
   <a className="no-underline text-white hover:text-white inline-block text-center p-4 hover:bg-gray-400" href="./">Home</a>
   <a className="no-underline text-white hover:text-white inline-block text-center p-4 hover:bg-gray-400" href="./new-year">New Year Countdown</a>

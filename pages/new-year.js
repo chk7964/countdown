@@ -88,7 +88,7 @@ const Home = () => {
       </LinkedinShareButton>
     </div>
 
-      <div className="bg-gradient-to-tl from-indigo-300 via-purple-300 to-pink-500 font-serif w-full" id="sno">
+      <div className="bg-gradient-to-tl from-indigo-300 to-pink-500 font-serif w-full" id="sno">
         <div className="h-screen">
         <Head>
 
@@ -132,9 +132,9 @@ const Home = () => {
               <br />
               <h3 className="font-bold text-3xl p-2 inline-block bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-lime-900">{cdate01}</h3>
               <br />
-              <h3 className="font-bold text-3xl p-2 inline-block text-center bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-amber-500">There Are Only</h3>
+              <h3 className="font-bold text-3xl p-2 inline-block text-center bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-indigo-800">There Are Only</h3>
             </div>
-            <div id="countdown" className="h-auto m-auto flex flex-col sm:flex-row items-center justify-center pt-[5vh] animate-pulse w-min font-serif ">
+            <div id="countdown" className="h-auto m-auto flex flex-col sm:flex-row items-center justify-center pt-[5vh] animate-jump animate-infinite animate-duration-[2000ms] animate-ease-in animate-reverse animate-fill-both w-min font-serif ">
             
                 <div className="font-bold text-3xl skew-y-6 stroke-yellow-400 uppercase p-3 text-center sm:text-lg md:text-3xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-violet-500 break-words"><span id="days" className="block">{days}</span>days</div>
                 <div className="font-bold text-3xl skew-y-6 stroke-yellow-400 uppercase p-3 text-center sm:text-lg md:text-3xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-violet-500 break-words"><span id="hours" className="block">{hours}</span>Hours</div>
@@ -145,7 +145,7 @@ const Home = () => {
 <h3 className="font-bold text-3xl p-2 inline-block bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-lime-900 text-center">Until New Year</h3>
 </div>
             <div className=" w-min mx-auto bg-slate-400 text-center mt-[10vh]">
-              <p className="p-4">Advertise</p>
+              <p className="p-4 animate-wiggle animate-infinite">Advertise</p>
             </div>
           </>
         )}

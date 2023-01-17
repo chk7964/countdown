@@ -10,7 +10,7 @@ const Home = () => {
   const [seconds, setSeconds] = useState(0);
 
   useEffect(() => {
-    const target = new Date("12/31/2022 00:00:00");
+    const target = new Date("03/22/2023 00:00:00");
     const interval = setInterval(() => {
       const now = new Date();
       const difference = target.getTime() - now.getTime();
@@ -41,14 +41,16 @@ const Home = () => {
     <>
     <div className=" bg-rose-400 h-screen">
       <Head>
-        <title>Countdown Timer</title>
+        <title>Ramadan Countdown Clock</title>
         <link rel="icon" href="/favicon.ico" />
         {/* <link rel="stylesheet" href="/css/bg.css"></link> */}
       </Head>
 
       {partyTime ? (
         <>
-          <h1>Happy new year!</h1>
+        <div className="text-center pt-[40vh] mb-48">
+          <h1 className="font-semibold text-4xl">Happy Ramadan</h1>
+          </div>
           {/* <video autoPlay loop muted>
             <source src="/party.mp4" />
           </video> */}
@@ -77,7 +79,7 @@ const Home = () => {
               </div>
               </div> */}
 <div className="text-center ">
-  <h1 className="font-bold text-3xl">New Year Countdown</h1>
+  <h1 className="font-bold text-3xl">Ramadan Countdown</h1>
 </div>
               <div id="countdown" className="h-auto m-auto flex items-center justify-center pt-[30vh] animate-pulse">
     <ul>
@@ -88,8 +90,8 @@ const Home = () => {
     </ul>
   </div>
 
-<div className="mt-48  pb-4 border border-lime-400 text-center">
-<p className="p-4">New Year Countdown</p>
+<div className="mt-48 mb-4 pb-4 border border-lime-400 text-center">
+<p className="p-4">Ramadan Countdown</p>
 
 </div>
 
@@ -102,6 +104,10 @@ const Home = () => {
         
         </>
       )}
+      <div className="mb-4 border border-lime-400 text-center">
+<p className="p-4">Advertise</p>
+
+</div>
     </div>
     </>
   );

@@ -48,7 +48,9 @@ const Home = () => {
 
       {partyTime ? (
         <>
-          <h1>Happy new year!</h1>
+        <div className="text-center">
+          <h1>Happy new year</h1>
+          </div>
           {/* <video autoPlay loop muted>
             <source src="/party.mp4" />
           </video> */}

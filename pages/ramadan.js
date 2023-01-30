@@ -94,6 +94,7 @@ const Home = () => {
               <p className="p-4">Ramadan Countdown</p>
 
             </div>
+            <p>Ramadan is the ninth month of the Islamic calendar, observed by Muslims worldwide as a month of fasting, prayer, reflection and community.</p>
 
 
 
